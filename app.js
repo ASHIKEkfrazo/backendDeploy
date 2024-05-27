@@ -2,7 +2,7 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 
-const PORT = process.env.PORTNUMBER
+const PORT = process.env.PORT
 const githubRes = {
     "login": "ASHIKEkfrazo",
     "id": 142868635,
